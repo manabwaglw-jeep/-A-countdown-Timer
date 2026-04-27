@@ -27,6 +27,6 @@ for x in range (my_time,0,-1):
     seconds = x % 60                                #  % is used for remainder 
     print(f"{hours}:{minutes}:{seconds}")           #  in seconds %60 is used for remainder
     time.sleep(0.01)
-print("blast!")
+print("Times up!")
 
 
